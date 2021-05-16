@@ -9,10 +9,10 @@ using namespace cv;
 
 int main() {
 
-	std::string path = "Resources/video.mp4";
-	cv::VideoCapture cap(path);
+	string path = "Resources/video.mp4";
+	VideoCapture cap(path);
 
-	cv::Mat img;
+	Mat img;
 
 	//load the Haar Cascade
 	CascadeClassifier faceCascade;
